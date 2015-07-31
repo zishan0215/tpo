@@ -350,11 +350,11 @@ label {
 	==================================================*/
 
 #parallax {
-  height: 680px;
+  height: 780px;
   width: 100%;
-  top: 0;
+  top: 00;
   position: fixed;
-  background: url('http://placehold.it/1600x1600') center center no-repeat; 
+  background: url('https://upload.wikimedia.org/wikipedia/commons/e/e8/Building_10_jamia.JPG') center center no-repeat; 
   background-size: cover;
   z-index: -100;
 }
