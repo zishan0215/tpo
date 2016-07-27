@@ -89,7 +89,7 @@
             <div class="row">
                 <!-- <div class="col-md-5"></div> -->
                 <div class="col-md-7">
-                    <div class="lp-element animate" data-animate="fadeInDown">
+                    <div class="lp-element animate" data-animate="fadeInUp">
                         <h1>Welcome to Jamia Millia Islamia</h1>
                         <p class="lead">Department of Computer Engineering - Placements 2017</p>
                         <!--<p><a class="btn btn-primary btn-lg" role="button">Purchase Now</a> <a class="btn btn-danger btn-lg" role="button">See Gallery</a></p>-->
@@ -159,7 +159,7 @@
                         <h1><strong>About</strong> Jamia Millia Islamia</h1>
                         <p class="lead">
                             Jamia Millia Islamia was founded at Aligarh in the United Province, India in 1920 during the Khilafat and Non-Cooperation Movement in response to Gandhiji's call to boycott government supported educational institutions.
-                            <br/>Jamia moved from Aligarh to Delhi in the year 1925 and was made a central university by Parliamentary act of 1988. Today, Jamia Millia Islamia is one of the most prominent and promising Central Universitities of the country.
+                            <br/>Jamia moved from Aligarh to Delhi in the year 1925 and was made a central university by Parliamentary act of 1988. Today, Jamia Millia Islamia is one of the most prominent and promising Central Universities of the country.
                 		<br>Jamia has been recently awarded 'A' Grade by NAAC.(National Assessment and Accreditation Council)
                         </p>
                     </div>
@@ -170,8 +170,8 @@
                         <h2><strong>About</strong> Department of Computer Engineering </h2>
                         <p class="lead">
                             Started in 2000, the Department of Computeer Engineering stands one of the leading departments at Jamia. <br>
-                            The department successfully runs two undergarduate courses -B. Tech and B.E. Providing students with balanced theoritical and practical expertise. The Ph.D program boost of research scholars working in the field of Networking, Data Mining, AI etc. <br>
-                            The department actively supports various technical and non-technical causues, promoting student initated activies
+                            The department successfully runs three courses -B. Tech, B.E. and M. Tech. Department provides students with balanced theoritical and practical expertise. The Ph.D program boast of research scholars working in the field of Networking, Data Mining, AI etc. <br>
+                            The department actively supports various technical and non-technical causues, promoting student initiated activies.
                         </p>
                         <hr />
                         <!--<p><a href="#">Link Text</a> Collaboratively <em>rendered as italicized text</em> envisioneer magnetic schemas through <small>This line of text is meant to be treated as fine print.</small> synergistic technologies. Holisticly seize professional ideas before wireless metrics. Appropriately drive <strong>rendered as bold text</strong> progressive <abbr title="attribute">attr</abbr> catalysts <abbr title="HyperText Markup Language" class="initialism">HTML</abbr>.</p>-->
@@ -200,19 +200,24 @@
                         <div class="panel-group" id="accordion">
 
                             <div class="panel panel-default">
-                                <div class="panel-heading">
+                                <div id="gsoc_head" class="panel-heading">
                                     <h4 class="panel-title">
-						        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-						          Google Summer of Code
+						        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" onclick="myFunction('gsoc_projects','gsoc_head')">
+									<div id="gsoc_projects" style="text-align: center; vertical-align: top; font-size:large;text-decoration: underline;text-transform:uppercase;padding-bottom: 5px;">
+										Google Summer of Code
+									</div>
+									<div style="text-align: center; vertical-align: top;">
+										<img src="assets/images/gsoc.jpg" height="50" hspace="5"/>
+									</div>
 						        </a>
 						      </h4>
                                 </div>
                                 <div id="collapse1" class="panel-collapse collapse">
                                     <div class="panel-body">
                                     	<p>
-                                            1. GSoc 2014- Adding support for the reflowable epub document format to Atril, the MATE document viewer; <strong>Organization: openSUSE</strong>
+                                            1. GSoc 2016- Developing an (Actionable Status Updates/Alerts/Notifications Module) <strong>Organization: Mifos Initiative</strong>
                                             <br>
-										    2. GSoc 2014- Creating a website and an API for a tool (called MusicBrainz Picard), and adding a 'Plugin Download' interface to the tool itself; <strong>Organization: MetaBrainz</strong>
+										    2. GSoc 2016- Hardware accelerated media decoding on Android <strong>Organization: GPAC</strong>
 										    <br>
 										    3. GSoc 2015- Support of HTTPCrypt in the Web interface; <strong>Organization: Rspamd</strong>
 										    <br>
@@ -224,104 +229,128 @@
                                     	</p>
                                     </div>
                                 </div>
-                            </div>
+							</div>
                             <div class="panel panel-default">
-                                <div class="panel-heading">
+                                <div id="org_head" class="panel-heading">
                                     <h4 class="panel-title">
-						        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-						          Under Government Authorities
-						        </a>
-						      </h4>
-                                </div>
+						        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" onclick="myFunction('org_projects','org_head')">
+									<div id="org_projects" style="text-align: center; vertical-align: top;font-size:large;text-decoration: underline;text-transform:uppercase;padding-bottom: 5px;">
+										Under Different Organization        
+									</div>
+									<div style="text-align: center; vertical-align: top;">
+										<img src="assets/images/nic.png" height="50" hspace="10"/>
+										<img src="assets/images/mecon.png" height="50" hspace="10"/>
+										<img src="assets/images/huehealth.png" height="50" hspace="10"/>
+									</div>
+								  </a>
+								  </h4>
+								  </div>
                                 <div id="collapse2" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <p>
-                                        	1. Analysis of  geo-tagged images from Big Data store using Hadoop and JAI; <strong>Organization: DRDO</strong>
+                                        	1. Management Information System(MIS) for class 10th and 12th <strong>Organization: Jamia Millia Islamia</strong>
                                         	<br>
-											2. Terrain Visualization and Analysis for Defence applications using osgEarth, and built a plugin to display bands of an image; <strong>Organization: DRDO</strong>
+											2. A anti-piracy system designed to help against piracy of web applications by using public key cryptography <strong>Organization: NIC, New Delhi</strong>
 											<br>
-											3. Online management of Annual Performance Appraisal Report for officers in the Ministry of Road Transport ;<strong>Organization NIC</strong>
+											3. Developed the front end module<strong>Organization: Huehealth</strong>
 											<br>
-											4. Creation of Gene Regulatory Networks (GRNs) with the gene expression data; <strong>Organization NNMCB</strong>
+											4. Wikipedia search engine: The project is designed to perform efficient and scalable search on Wikipedia corpus.
 											<br>
-											5. Text analysis tool to map narrations to various types of classes. This helps bucketing the data which aids in the investigation of Corporate Fraud; Organization: <strong>Serious Fraud Investigation Office (SFIO)</strong>
+											5. Employee Resource Planning system module.<strong> Organization: Mecon Ltd.</strong>
 											<br>
-											6. A SMS-based Information Delivery System (SMSIDS) has been developed to facilitate faster communication between team members through SMS using KANNEL as a SMS gateway; Organization: <strong>NTPC</strong>
+											6. Delhi Tourism Website with php backend.
 											<br>
+											7. Online Banking Portal.<strong> Organization: TCS</strong>
+											</p>
                                     </div>
-                                </div>
-                            </div>
+                                </div>	
+							</div>
                             <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-						        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-						           Self Initiated
+                                <div id='self_head' class="panel-heading">
+                                    <h1 class="panel-title" >
+						        <a  data-toggle="collapse" data-parent="#accordion" href="#collapse3" onclick="myFunction('self_projects','self_head')">
+						           <div id="self_projects" style="text-align: center; vertical-align: top;font-size:large;text-decoration: underline;text-transform:uppercase;padding-bottom: 5px;">
+								   Self Initiated
+								   </div>
+								   <div style=" text-align: center; vertical-align: top;">			
+								   <img  src="assets/images/algologo.png" hspace="10" height="50"/>
+								   <img  src="assets/images/squadlogo.png" hspace="10" height="50"/>
+								   </div>
 						        </a>
-						      </h4>
+						      </h1>
                                 </div>
                                 <div id="collapse3" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <p>
-                                        	1. Online portal for registering FIRs, Missing persons, Other Complaints etc.
+                                        	1. Pixelate - A smart system which solves the maze with geometric shapes using image processing and moves a bot along the path.
                                         	<br>
-										    2. An online 2-D game in which players connect with there account in our server; battle with other players to earn ranking and pokemons.
+										    2. SQUAD - A smart drone with capabilities like object tracking,live surveilliance and gps tracking. 
 										    <br>
-										    3. JMImart - An online portal to sell old collage material.
+										    3. Zombie fighting game built in python.
 										    <br>
-										    4. AlgoRhythm 2014- Website for the annual fest(AlgoRhythm) of CSI-JMI
+										    4. Net browser(Browser for android mobile phones)
 										    <br>
-										    5. AlgoRhythm 2014- Website for the annual magazine(FICTION) of CSI-JMI
+										    5. Online Telephone bill payment
 										    <br>
-										    6. AlgoRhythm 2014- MockStock (online event)
+										    6. Facial recognition using eigen based algorithm.
 										    <br>
-										    7. AlgoRhythm 2014- Cryptex (online event)
-										    <br>
-										    8. Oldbooks- An online ads portal for second hand books.
-										    <br>
-										    9. Daily Quran Verses- An android app which allows user to read quran in four different languages.
-                                    </div>
+										    7. A trainable ocr for recognizing handwritten digits with upto 96% accuracy which can be improved by manual training.
+											<br>
+											8. A crytographic hash verifier that integrated into Windows explorer.
+											<br>
+											9. A system (related to Web Scraping) to keep track of gsoc participants project progresses (Python) for the Python Software Foundation.
+											<br>
+											10. AlgoRhythm 2015- Website for the annual fest(AlgoRhythm) of CSI-JMI
+											<br>
+											11. 3 bots that run on Reddit to identify duplicate posts, remind users about a link.
+											<br>
+											12. Facial Keypoints Recognition - A Machine Learning project in R which identifies the major facial keypoints in a image.
+											<br>
+											13. Mood based classification of music - A Machine Learning project in R which classifies songs based on their lyrical data.
+											<br>
+											14. Smart Video Player - An application using HAAR-LIKE features of SimpleCV which pauses the video whenever the user faces away from the screen.
+											<br>
+											15. Traffic surveilliance using computer vision and digital image processing.
+											<br>
+											16. Computer mouse control using digital image processing.
+											</p>
+									</div>
                                 </div>
                             </div>
                             <div class="panel panel-default">
-                                <div class="panel-heading">
+                                <div id="android_head" class="panel-heading">
                                     <h4 class="panel-title">
-						        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-						          Application Development
+						        <a  data-toggle="collapse" data-parent="#accordion" href="#collapse4" onclick="myFunction('android_projects','android_head')">
+								<div id="android_projects" style="text-align: center; vertical-align: top;font-size:large;text-decoration: underline;text-transform:uppercase;padding-bottom: 5px;">
+									Android Application Development
+								</div>
+								<div style="text-align: center; vertical-align: top;">
+									<img src ="assets/images/androidlogo.png" height="50" hspace="10"/>
+								</div>
 						        </a>
 						      </h4>
                                 </div>
                                 <div id="collapse4" class="panel-collapse collapse">
                                     <div class="panel-body">
                                 		<p>
-                                			1. Information System For Rtujsr Institute
+                                			1. An Android app to control a drone over bluetooth with live video feed,gps coordinates plotting over G-Maps. 
                                 			<br>
-										    2. An Android Application for iguaridian, an erp software for schools of Delhi; <strong>Organization: Litchi Knowledge Center</strong>
+										    2. A phone app that alerts you when the travel time to your destination reaches an optimum based on past travel times and historic data.
 										    <br>
-										    3. Develop an Android Application which will create video of a given website, based on the content of the site. The video length could be 30 seconds to 1 minute; <strong>Orgnaization: MixORG</strong>
-                                		</p>
-                                    </div>
-                                </div>
-                            </div>
-                          	<div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-						        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
-						          Web Development
-						        </a>
-						      </h4>
-                                </div>
-                                <div id="collapse5" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                		<p>
-
-
-										    1. A centralised API to send Push notiications to android and ios phones, SMS and emails for transactions done on Ecommerce app zopper. <strong>Organization- Zopper</strong>
-										    <br>
-										    2. A Restful API to return region specific popularity of products for Zopper APP; <strong>Organization - Zopper</strong>
-										    <br>
-											3. Created the internet of things portal of the company, providing statistics and real-time information about the devices that are currently commissioned by the company; <strong>Organization- InPhase Power Technologies Pvt. Ltd.
-											<br></strong>
-											4. MSoW 2014- Scripted add-ons for OWASP ZAP tool; <strong>Organization: Mozilla</strong>
+										    3. Techie News Android Application which gives top 100+ technical news articles.
+											<br>
+											4. Chatting Software - A Windows-based application inspired by Facebook Messenger.
+											<br>
+											5. An application that serves as a command line interface to the stackexchange network of websites.
+											<br>
+											6. Android File Manager:  a simple and fast file manager for Android
+											<br>
+											7. Notes App: A notes taking app for Android.
+											<br>
+											8. Movie DB - An app to help users discover popular and top rated movies on the web.
+											<br>
+											9. Sunshine - Weather Forecast App
+											<br>
                                 		</p>
                                     </div>
                                 </div>
@@ -639,6 +668,40 @@
     <!-- Bootstrap core JavaScript
 	================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+	<script>
+function myFunction(a,b) {
+	if (document.getElementById(a).style.fontSize == "x-large")
+	{
+		document.getElementById(a).style.fontSize = "large";
+		document.getElementById(b).style.background="#e9f3e3";
+		
+	}
+	else
+	{
+		document.getElementById(a).style.fontSize = "x-large";
+		document.getElementById(b).style.background="#99ff99";
+	}
+	if(a!="gsoc_projects") {
+		document.getElementById("gsoc_projects").style.fontSize = "large";
+		document.getElementById("gsoc_head").style.background="#e9f3e3";
+	}
+	if(a!="self_projects") {
+		document.getElementById("self_projects").style.fontSize = "large";
+		document.getElementById("self_head").style.background="#e9f3e3";
+	}
+	if(a!="android_projects") {
+		document.getElementById("android_projects").style.fontSize = "large";
+		document.getElementById("android_head").style.background="#e9f3e3";
+	}
+	if(a!="org_projects") {
+		document.getElementById("org_projects").style.fontSize = "large";
+		document.getElementById("org_head").style.background="#e9f3e3";
+	}
+}
+function myFunction1(a) {
+	document.getElementById(a).style.fontSize = "small";
+}
+</script>
     <script src="assets/js/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
